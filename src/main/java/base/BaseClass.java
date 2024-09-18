@@ -1,9 +1,7 @@
 package base;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import browserFactory.BrowserFactory;
@@ -18,7 +16,9 @@ public class BaseClass {
 		
 		System.out.println("LOG:INFO - Setting up browser");
 		
-		//1 - Config - Does not suite for cross browser
+		/*
+		 * 1 - Config - Does not suite for cross browser
+		 */
 		driver = BrowserFactory.startBrowser(ConfigReader.getProperty("browser"), ConfigReader.getProperty("url"));
 		
 		System.out.println("LOG:INFO - Application is up and running");

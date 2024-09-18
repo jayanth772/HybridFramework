@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T17:47:36 IST" name="Suite" finished-at="2024-09-08T17:47:48 IST" duration-ms="12318">
+  <suite started-at="2024-09-18T19:04:46 IST" name="Default suite" finished-at="2024-09-18T19:04:56 IST" duration-ms="9833">
     <groups>
     </groups>
-    <test started-at="2024-09-08T17:47:36 IST" name="Test" finished-at="2024-09-08T17:47:48 IST" duration-ms="12318">
+    <test started-at="2024-09-18T19:04:46 IST" name="Default test" finished-at="2024-09-18T19:04:56 IST" duration-ms="9833">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@673fdbce]" started-at="2024-09-08T17:47:36 IST" name="setup" finished-at="2024-09-08T17:47:39 IST" duration-ms="2487" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@4fb0f2b9]" started-at="2024-09-18T19:04:46 IST" name="setup" finished-at="2024-09-18T19:04:48 IST" duration-ms="1827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@673fdbce]" started-at="2024-09-08T17:47:39 IST" name="login" data-provider="LoginDataSet" finished-at="2024-09-08T17:47:42 IST" duration-ms="3371" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@4fb0f2b9]" started-at="2024-09-18T19:04:48 IST" name="login" data-provider="LoginDataSet" finished-at="2024-09-18T19:04:51 IST" duration-ms="3038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginTest@673fdbce]" started-at="2024-09-08T17:47:42 IST" name="teardown" finished-at="2024-09-08T17:47:43 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginTest@4fb0f2b9]" started-at="2024-09-18T19:04:51 IST" name="teardown" finished-at="2024-09-18T19:04:51 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@673fdbce]" started-at="2024-09-08T17:47:43 IST" name="setup" finished-at="2024-09-08T17:47:44 IST" duration-ms="1834" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@4fb0f2b9]" started-at="2024-09-18T19:04:51 IST" name="setup" finished-at="2024-09-18T19:04:53 IST" duration-ms="1440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@673fdbce]" started-at="2024-09-08T17:47:44 IST" name="login" data-provider="LoginDataSet" finished-at="2024-09-08T17:47:48 IST" duration-ms="3190" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@4fb0f2b9]" started-at="2024-09-18T19:04:53 IST" name="login" data-provider="LoginDataSet" finished-at="2024-09-18T19:04:55 IST" duration-ms="2836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,11 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginTest@673fdbce]" started-at="2024-09-08T17:47:48 IST" name="teardown" finished-at="2024-09-08T17:47:48 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginTest@4fb0f2b9]" started-at="2024-09-18T19:04:55 IST" name="teardown" finished-at="2024-09-18T19:04:56 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
